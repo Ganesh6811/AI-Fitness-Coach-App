@@ -1,16 +1,47 @@
-# React + Vite
+# 🌟 AI Fitness Coach
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **AI Fitness Coach**, your ultimate personalized fitness companion! This sleek, responsive web application is crafted using **React** and **Tailwind CSS**, powered by cutting-edge AI technologies including **Gemini AI** for intelligent text and image generation, and **Eleven Labs** for lifelike speech synthesis. Developed with **Vite**, it offers blazing-fast development experience and highly optimized production builds. Manage your API keys securely via environment variables for seamless integration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
 
-## React Compiler
+- 🎯 Tailored workout plans enriched with AI-generated exercise images  
+- 🥗 Customized daily diet plans accompanied by AI-crafted food images  
+- 💬 Inspiring motivational quotes to keep you moving forward  
+- 🔊 Text-to-speech functionality using Eleven Labs to listen to your plans  
+- 📄 Export your diet plans as beautiful PDFs for offline access  
+- 📱 Fully responsive design powered by Tailwind CSS for any device  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (with Vite) – Modern, efficient UI development  
+- **Tailwind CSS** – Utility-first styling framework  
+- **Gemini AI** – Google’s generative AI for text & images  
+- **Eleven Labs** – Advanced AI speech synthesis  
+- **OpenAI** (optional) – Alternative AI image generation  
+- **jsPDF & html2canvas** – Smooth PDF export capabilities  
+
+---
+
+## 🚀 Quick Start
+
+1. Clone the repository
+git clone https://github.com/yourusername/ai-fitness-coach.git
+cd ai-fitness-coach
+
+
+2. Install dependencies:
+npm install
+
+
+3. Create `.env` file in the root with:
+VITE_GOOGLE_GENAI_API_KEY=your_google_gemini_api_key
+VITE_ELEVEN_LABS_API_KEY=your_elevenlabs_api_key
+VITE_OPENAI_API_KEY=your_openai_api_key # Optional
+
+
+4. Start dev server:
+npm run dev
