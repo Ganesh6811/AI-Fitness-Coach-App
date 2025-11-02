@@ -1,35 +1,35 @@
 # 🌟 AI Fitness Coach
 
-Welcome to **AI Fitness Coach**, your ultimate personalized fitness companion! This sleek, responsive web application is crafted using **React** and **Tailwind CSS**, powered by cutting-edge AI technologies including **Gemini AI** for intelligent text and image generation, and **Eleven Labs** for lifelike speech synthesis. Developed with **Vite**, it offers blazing-fast development experience and highly optimized production builds. Manage your API keys securely via environment variables for seamless integration.
+Welcome to **AI Fitness Coach**, your ultimate personalized fitness companion! This sleek and responsive web application is built using **React** and **Tailwind CSS**, and powered by cutting-edge AI technologies such as **Gemini AI** for intelligent text and image generation, and **Eleven Labs** for natural, human-like voice synthesis. Developed with **Vite**, it delivers a blazing-fast development experience and optimized production builds. All API keys are securely managed with environment variables for seamless integration and data protection.
 
 ---
 
 ## ✨ Key Features
 
-- 🎯 Tailored workout plans enriched with AI-generated exercise images  
-- 🥗 Customized daily diet plans accompanied by AI-crafted food images  
-- 💬 Inspiring motivational quotes to keep you moving forward  
-- 🔊 Text-to-speech functionality using Eleven Labs to listen to your plans  
-- 📄 Export your diet plans as beautiful PDFs for offline access  
-- 📱 Fully responsive design powered by Tailwind CSS for any device  
+- 🎯 Personalized workout plans generated dynamically by AI  
+- 🥗 Custom daily diet plans with AI-crafted food images  
+- 💬 Motivational quotes to inspire your fitness journey  
+- 🔊 Text-to-speech functionality via Eleven Labs to listen to your plans  
+- 📄 Export diet plans as stunning PDFs for offline viewing  
+- 📱 Fully responsive design powered by Tailwind CSS  
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **React** (with Vite) – Modern, efficient UI development  
-- **Tailwind CSS** – Utility-first styling framework  
-- **Gemini AI** – Google’s generative AI for text & images  
-- **Eleven Labs** – Advanced AI speech synthesis  
-- **OpenAI** (optional) – Alternative AI image generation  
-- **jsPDF & html2canvas** – Smooth PDF export capabilities  
+- **React (with Vite)** – Fast and modern UI development framework  
+- **Tailwind CSS** – Utility-first CSS framework for responsive design  
+- **Gemini AI** – Intelligent text and image generation by Google  
+- **Eleven Labs** – State-of-the-art AI voice generation  
+- **OpenAI (optional)** – Alternative AI image generation source  
+- **jsPDF & html2canvas** – For smooth and elegant PDF export functionality  
 
 ---
 
 ## 🚀 Quick Start
 
-1. Clone the repository
-git clone https://github.com/yourusername/ai-fitness-coach.git
+1. Clone the repository:
+git clone [https://github.com/yourusername/ai-fitness-coach.git](https://github.com/Ganesh6811/AI-Fitness-Coach-App.git)
 cd ai-fitness-coach
 
 
@@ -45,3 +45,18 @@ VITE_OPENAI_API_KEY=your_openai_api_key # Optional
 
 4. Start dev server:
 npm run dev
+
+
+---
+
+## 🌐 Live Demo & Repository
+
+- **Live Project:** [https://ai-fitness-coach-app-two.vercel.app/](https://ai-fitness-coach-app-two.vercel.app/)  
+- **GitHub Repository:** [https://github.com/Ganesh6811/AI-Fitness-Coach-App](https://github.com/Ganesh6811/AI-Fitness-Coach-App)
+
+---
+
+## 💡 Author
+
+Developed with passion by **Ganesh** 👨‍💻  
+Focused on merging technology, AI, and fitness for smarter living.
